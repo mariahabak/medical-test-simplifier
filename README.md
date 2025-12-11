@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 Inside backend/.env:
 
-OPENAI_API_KEY=your_openai_key_here
+OPENAI_API_KEY=openai_key_
 
 3️⃣ Run the server
 uvicorn main:app --reload --port 8000
